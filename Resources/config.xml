@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.5/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+
+        <element required="true" type="text" scope="shop">
+            <name>connection-key</name>
+            <label lang="de">Connection Key</label>
+            <label lang="en">Connection Key</label>
+            <label lang="nl">Connection Key</label>
+        </element>
+
+        <element required="true" type="text" scope="shop">
+            <name>subdomain</name>
+            <label lang="de">Subdomain</label>
+            <label lang="en">Subdomain</label>
+            <label lang="nl">Subdomein</label>
+        </element>
+
+    </elements>
+</config>
