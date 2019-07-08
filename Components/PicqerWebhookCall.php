@@ -13,7 +13,7 @@ class PicqerWebhookCall
     protected $protocol = 'https';
 
     public function __construct(
-        PicqerOrderPusher\Components\Config $config
+        \PicqerOrderPusher\Components\Config $config
     )
     {
         $this->config = $config;

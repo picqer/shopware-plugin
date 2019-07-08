@@ -1,0 +1,25 @@
+{
+  "name": "picqer/shopware-plugin",
+  "description": "Picqer Extended Integration for Shopware",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "shopware-plugin",
+  "extra": {
+    "installer-name": "PicqerOrderPusher"
+  },
+  "keywords": [
+    "picqer",
+    "shopware"
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/picqer/magento2-plugin/"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  }
+}
