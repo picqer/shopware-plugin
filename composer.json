@@ -14,7 +14,13 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/picqer/magento2-plugin/"
+      "url": "https://github.com/picqer/shopware-plugin"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Anna van Brecht",
+      "email": "info@picqer.com"
     }
   ],
   "require": {
