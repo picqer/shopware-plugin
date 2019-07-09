@@ -19,4 +19,6 @@ Orders will now be pushed to Picqer immediately.
 
 ## Uninstall
 1. Log onto your Shopware Backend Admin account and navigate to Configuration > Plugin Manager > Picqer Order Pusher.
-2. Deactivate and uninstall Picqer Order Pusher. 
+2. Deactivate Picqer Order Pusher. 
+3. ``` composer remove picqer/shopware-plugin ```
+4. Uninstall Picqer Order Pusher. 
