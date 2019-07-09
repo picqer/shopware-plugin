@@ -21,6 +21,10 @@ class PicqerOrderPusher extends Plugin
 
     public function install(InstallContext $context)
     {
+        if (file_exists(__DIR__ . '/vendor/autoload.php')) {
+            require_once __DIR__ . '/vendor/autoload.php';
+        }
+
         parent::install($context);
     }
 
@@ -33,6 +37,10 @@ class PicqerOrderPusher extends Plugin
 
     public function uninstall(UninstallContext $context)
     {
+        if ($context->keepUserData()) {
+            return;
+        }
+
         parent::uninstall($context);
     }
 
