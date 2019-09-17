@@ -3,9 +3,9 @@
 <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.5/engine/Shopware/Components/Plugin/schema/plugin.xsd">
 
-    <label lang="en">Picqer Order Pusher</label>
-    <label lang="de">Picqer Order Pusher</label>
-    <label lang="nl">Picqer Order Pusher</label>
+    <label lang="en">Picqer</label>
+    <label lang="de">Picqer</label>
+    <label lang="nl">Picqer</label>
 
     <version>1.0.0</version>
     <copyright>(c) Picqer</copyright>

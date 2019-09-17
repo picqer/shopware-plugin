@@ -9,8 +9,8 @@ This project can easily be installed through Composer.
 ```
 
 ## Activate Plugin
-1. Log onto your Shopware Backend Admin account and navigate to Configuration > Plugin Manager > Picqer Order Pusher.
-2. Install and activate the Picqer Order Pusher. 
+1. Log onto your Shopware Backend Admin account and navigate to Configuration > Plugin Manager > Picqer.
+2. Install and activate the Picqer plugin. 
 3. Fill out the general configuration information: 
     + Connection Key: can be found in Picqer > Settings > Webshops > Shopware shop. Copy and paste this field. 
     + Subdomain: is the prefix of your domain name. If your log on to 'my-shop.picqer.com', then fill in 'my-shop'.
@@ -18,7 +18,7 @@ This project can easily be installed through Composer.
 Orders will now be pushed to Picqer immediately. 
 
 ## Uninstall
-1. Log onto your Shopware Backend Admin account and navigate to Configuration > Plugin Manager > Picqer Order Pusher.
-2. Deactivate Picqer Order Pusher. 
+1. Log onto your Shopware Backend Admin account and navigate to Configuration > Plugin Manager > Picqer.
+2. Deactivate the Picqer plugin. 
 3. ``` composer remove picqer/shopware-plugin ```
-4. Uninstall Picqer Order Pusher. 
+4. Uninstall Picqer. 

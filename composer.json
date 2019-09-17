@@ -1,7 +1,7 @@
 {
   "name": "picqer/shopware-plugin",
   "description": "Picqer Extended Integration for Shopware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "type": "shopware-plugin",
   "extra": {
