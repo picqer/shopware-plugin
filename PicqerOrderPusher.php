@@ -16,6 +16,8 @@ class PicqerOrderPusher extends Plugin
     {
         return [
             'sOrder::sSaveOrder::after' => 'pushOrder',
+            'sOrder::setPaymentStatus::after' => 'pushOrder',
+            'sOrder::setOrderStatus::after' => 'pushOrder',
         ];
     }
 
