@@ -1,4 +1,4 @@
-# Picqer Extended Integration for Shopware
+# Picqer Extended Integration for Shopware 5
 Shopware extension for Picqer
 
 ## Installation
