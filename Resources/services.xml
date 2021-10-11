@@ -6,7 +6,7 @@
 
     <services>
 
-        <service id="picqer_order_pusher.config" class="PicqerOrderPusher\Components\Config">
+        <service id="picqer_order_pusher.config" class="PicqerOrderPusher\Components\Config" public="true">
             <argument type="service" id="shopware.plugin.cached_config_reader" />
         </service>
 
